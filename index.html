@@ -33,6 +33,7 @@
         />
         <button class="login__btn">&rarr;</button>
       </form>
+      <button class="show-modal">Instructions</button>
     </nav>
 
     <main class="app">
@@ -117,6 +118,33 @@
         You will be logged out in <span class="timer">05:00</span>
       </p>
     </main>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2 class="modal-messeage">
+        <ul>
+          Two accounts you can log in with:
+          <br />
+          <br />
+          <li>user = ao and pin = 1111</li>
+          <br />
+          <li>user = jd and pin = 2222</li>
+          <br />
+          <li>
+            To transfer money enter the other account (jd if you are logged with
+            ao), and enter the amount to transfer
+          </li>
+          <br />
+          <li>
+            When you log in to the other account you will see the amount
+            transferred
+          </li>
+          <br />
+          <li>To close your account enter the user and pin</li>
+          <br />
+        </ul>
+      </h2>
+    </div>
+    <div class="overlay hidden"></div>
     <script src="script.js"></script>
   </body>
 </html>
